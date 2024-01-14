@@ -694,7 +694,7 @@
                 <a href="/2024/01/13/wo-de-bo-ke-ce-shi/">
                     <div class="card-image">
                         
-                        <img src="/source/images/blogimages/defaulttitle.jpg" class="responsive-img" alt="dandan&#39;s blog">
+                        <img src="/source/blogimages/defaulttitle.jpg" class="responsive-img" alt="dandan&#39;s blog">
                         
                         <span class="card-title">dandan&#39;s blog</span>
                     </div>
@@ -1172,6 +1172,15 @@ $(function () {
     
     
     
+        
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
+            }
+        </script>
+    
 
     <!-- 雪花特效 -->
     
@@ -1220,6 +1229,8 @@ $(function () {
 
     
 
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
     
 
     
