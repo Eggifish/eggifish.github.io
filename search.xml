@@ -4,13 +4,25 @@
   
     
     <entry>
-      <title></title>
-      <link href="/2024/01/14/markdown/"/>
-      <url>/2024/01/14/markdown/</url>
+      <title>YAML头信息</title>
+      <link href="/2024/01/14/yaml-tou-xin-xi/"/>
+      <url>/2024/01/14/yaml-tou-xin-xi/</url>
       
-        <content type="html"><![CDATA[<h1 id="RUNOOB-Markdown-Test"><a href="#RUNOOB-Markdown-Test" class="headerlink" title="RUNOOB Markdown Test"></a>RUNOOB Markdown Test</h1><h2 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world!"></a>Hello world!</h2>]]></content>
+        <content type="html"><![CDATA[<h1 id="文章Front-matter介绍"><a href="#文章Front-matter介绍" class="headerlink" title="文章Front-matter介绍"></a>文章Front-matter介绍</h1><h2 id="Front-matter选项详解"><a href="#Front-matter选项详解" class="headerlink" title="Front-matter选项详解"></a>Front-matter选项详解</h2><p>下列选项中所有内容都是<strong>非必填</strong>，根据自己的需要来填<br>matery主题的个人博客的话建议填上<strong>title</strong>，<strong>date</strong>，<strong>img</strong>，<strong>summary</strong>，<strong>categories</strong>和<strong>keywords</strong>~  </p><table><thead><tr><th align="center">配置选项</th><th align="center">默认值</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center">title</td><td align="center">Markdown的文件标题</td><td align="center">文章标题</td></tr><tr><td align="center">date</td><td align="center">文件创建时的时间</td><td align="center">发布时间，最好保证全局唯一</td></tr><tr><td align="center">author</td><td align="center">根_config.yml中的author</td><td align="center">文章作者</td></tr><tr><td align="center">img</td><td align="center">featureImages中的某个值</td><td align="center">文章特征图，推荐图床来做图片的路径</td></tr><tr><td align="center">top</td><td align="center">true</td><td align="center">推荐文章置顶</td></tr><tr><td align="center">hide</td><td align="center">false</td><td align="center">隐藏文章，文章不在&#x2F;在首页显示</td></tr><tr><td align="center">cover</td><td align="center">false</td><td align="center">是否加入首页轮播中</td></tr><tr><td align="center">coverImg</td><td align="center">无</td><td align="center">轮播的图片</td></tr><tr><td align="center">password</td><td align="center">无</td><td align="center">是否设置文章阅读密码，注意要SHA256加密后的密码。也要在主题的config.yml文件中修改verifyPassword</td></tr><tr><td align="center">toc</td><td align="center">true</td><td align="center">目录，可以针对某篇文章单独关闭toc功能(在主题的config.yml)</td></tr><tr><td align="center">mathjax</td><td align="center">false</td><td align="center">公式支持，也要在主题的config.yml设置</td></tr><tr><td align="center">summary</td><td align="center">无</td><td align="center">摘要，建议设置</td></tr><tr><td align="center">categories</td><td align="center">无</td><td align="center">文章分类，建议一篇文章一个分类</td></tr><tr><td align="center">tags</td><td align="center">无</td><td align="center">文章标签，可以有多个标签</td></tr><tr><td align="center">keywords</td><td align="center">文章标签</td><td align="center">关键字，便于SEO检索</td></tr><tr><td align="center">reprintPolicy</td><td align="center">cc_by</td><td align="center">文章转载规则，可以选择：cc_by,cc_by_nd, cc_by_sa, cc_by_nc,cc_by_nc_nd, cc_by_nc_sa, cc0,noreprint 或 pay</td></tr></tbody></table><h2 id="参考出处"><a href="#参考出处" class="headerlink" title="参考出处"></a>参考出处</h2><p>闪烁之狐的<a href="https://github.com/blinkfox/hexo-theme-matery">hexo-theme-matery</a></p>]]></content>
       
       
+      <categories>
+          
+          <category> markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> markdown </tag>
+            
+        </tags>
       
     </entry>
     
